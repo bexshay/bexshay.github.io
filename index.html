@@ -2,43 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Web Page</title>
-    <!-- Link to the external CSS file -->
+    <title>My Nano Banana Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to the Test Web Page</h1>
+        <h1>Creative Portfolio</h1>
+        <p>Visuals powered by Nano Banana</p>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <li><a href="#section3">Section 3</a></li>
-        </ul>
-    </nav>
+    <section id="gallery">
+        <!-- Replace 'image1.png' with your Nano Banana generation -->
+        <div class="project">
+            <h3>Branding Kit</h3>
+            <a href="projects/branding/index.html">
+                <img src="images/branding-kit.png" alt="AI Generated branding kit">
+            </a>
+            <h3>Project One</h3>
+            <img src="images/project-01.png" alt="AI Generated project one">
 
-    <main>
-        <section id="section1">
-            <h2>Section One</h2>
-            <p>This is the first main content section. You can add text, images, or other elements here to test the layout and styling.</p>
-        </section>
+            <h3>Hero Mockup</h3>
+            <img src="images/hero-mockup.png" alt="AI Generated hero mockup">
 
-        <section id="section2">
-            <h2>Section Two</h2>
-            <p>This is the second section of the test page. The layout uses a basic CSS approach.</p>
-        </section>
+            <h3>Portfolio Headshot</h3>
+            <img src="images/portfolio-headshot.png" alt="AI Generated portfolio headshot">
 
-        <section id="section3">
-            <h2>Section Three</h2>
-            <p>This is the final section. The page is designed to be a simple blueprint for your testing needs.</p>
-        </section>
-    </main>
+            <h3>Video Project Demo</h3>
+            <video controls poster="assets/video-thumbnail.png">
+                <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
-    <footer>
-        <p>&copy; 2026 Test Web Page | Created with HTML and CSS</p>
-    </footer>
+            <h3>Motion Graphics</h3>
+            <p>Explore my video and animation work.</p>
+            <!-- This is the link to Level 2 -->
+            <a href="projects/motion-graphics/index.html" class="button">View Category</a>
+        </div>
+    </section>
 </body>
 </html>
